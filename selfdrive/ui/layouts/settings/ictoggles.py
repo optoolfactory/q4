@@ -178,6 +178,7 @@ class ICTogglesLayout(Widget):
     return
 
   def show_event(self):
+    super().show_event()
     self._scroller.show_event()
     self._update_toggles()
 
